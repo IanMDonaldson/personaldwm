@@ -6,10 +6,32 @@ static const unsigned int gappx     = 10;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Fira Code:size=12:autohinting=true:antialiasing=true",
-					"Material Icons:size=24:autohinting=true:antialiasing=true" };
-static const char dmenufont[]       = { "Fira Code:size=12" }; 
-static const char col_gray1[]       = "#222222";
+static const char *fonts[]          = { "SauceCodePro Nerd Font:size=14:autohinting=true:antialiasing=true",
+
+					"Hack Nerd Font Mono:size=12:autohinting=true:antialiasing=true",
+					"Arimo Nerd Font:size=12",
+					"ArulentSansMono Nerd Font:size=12",
+					"CodeNewRoman Nerd Font:size=12",
+					"DejaVuSansMono Nerd Font:size=12",
+					"DroidSansMono Nerd Font:size=12",
+					"FantasqueSansMono Nerd Font:size=12",
+					"FiraCode Nerd Font:size=12",
+					"GohuFont Nerd Font:size=12",
+					"Hasklug Nerd Font:size=12",
+					"HeavyData Nerd Font:size=12",
+					"iMWritingDuoS Nerd Font:size=12",
+					"InconsolataLGC Nerd Font:size=12",
+					"Iosevka Nerd Font:size=12",
+					"LiterationSans Nerd Font:size=12",
+					"NotoEmoji Nerd Font:size=12",
+					"NotoSansDisplay Nerd Font:size=12",
+					"NotoSans Nerd Font:size=12",
+					"SauceCodePro Nerd Font:size=12",
+					"ShureTechMono Nerd Font:size=12",
+					"TerminessTTF Nerd Font:size=12",
+					};
+static const char dmenufont[]       = { "Hack Nerd Font Mono:size=12" }; 
+static const char col_gray1[]       = "#3b4252";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
@@ -17,11 +39,11 @@ static const char col_cyan[]        = "#005577";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeSel]  = { col_gray3, col_gray1,  col_gray2  },
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "Ɐ", "ꞵ", "ℭ", "ⅅ", "ℰ", "ℱ", "", "ℋ", "I" };
 
 static const Rule rules[] = {
 	/* xprop(1):
